@@ -16,3 +16,47 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.field {
+  outline: 2px ridge rgba(138, 135, 139, 0.3);
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 10px;
+}
+.field:last-child {
+  margin-right: 0px;
+}
+
+.value {
+  padding-left: 10px;
+}
+
+.label {
+  padding-right: 10px;
+}
+
+input#datetime-picker {
+  /* border: solid 2px rgb(56, 2, 43);
+  border-radius: 5px; */
+
+  padding: 5px;
+}
+
+button[data-start] {
+  /* border-radius: 5px; */
+
+  margin-left: 5px;
+  padding: 5px;
+}
+
+button[data-stop] {
+  border-radius: 5px;
+  margin-left: 5px;
+  padding: 5px;
+}

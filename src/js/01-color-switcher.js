@@ -1,14 +1,3 @@
-// Напиши скрипт, який після натискання кнопки «Start»,
-// раз на секунду змінює колір фону < body > на випадкове значення,
-//     використовуючи інлайн стиль.
-//     Натисканням на кнопку «Stop» зміна кольору фону повинна зупинятися.
-
-// УВАГА
-// Враховуй, що на кнопку «Start» можна натиснути нескінченну кількість разів.
-// Зроби так, щоб доки зміна теми запущена, кнопка «Start» була неактивною(disabled).
-
-// Для генерування випадкового кольору використовуй функцію getRandomHexColor.
-
 const refs = {
   start: document.querySelector('[data-start]'),
   stop: document.querySelector('[data-stop]'),
@@ -24,6 +13,7 @@ refs.stop.addEventListener('click', stopBtnClick);
 
 let intervalId = null;
 
+// refs.start.disabled = false;
 refs.stop.disabled = true;
 
 function startBtnClick() {
