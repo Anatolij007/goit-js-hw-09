@@ -43,14 +43,12 @@ img {
 
 input#datetime-picker {
   /* border: solid 2px rgb(56, 2, 43);
-  border-radius: 5px; */
-
+   */
+  /* border-radius: 5px; */
   padding: 5px;
 }
 
 button[data-start] {
-  /* border-radius: 5px; */
-
   margin-left: 5px;
   padding: 5px;
 }
